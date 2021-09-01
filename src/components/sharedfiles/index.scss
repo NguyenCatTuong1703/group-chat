@@ -1,0 +1,206 @@
+.sharedFiles {
+    width:20%;
+    background-color: white;
+    height: 88vh;
+    padding: 0 30px;
+    transition: all 1s;
+    font-size: 20px;
+    right: 0;
+
+    &__header{
+        display: flex;
+        &--icon1{
+            margin: 7% 3% 0 0;
+            font-size: 30px;
+            background-color: rgb(241, 240, 240);
+            border-radius: 7px;
+            width: 15%;
+            height: 10%;
+        }
+    }
+    &__info{
+        &--img{
+            height: 100px;
+            border-radius: 80px;
+            margin-top: 5%;
+            background-color: antiquewhite;
+        }
+        h3{
+            margin: 5% 0 2% 0;
+        }
+        h5{
+            margin: 0 0 10% 0;
+            color: grey;
+        }
+    }
+    &__Files{
+        display: flex;
+        margin-top: 7%;
+        height: 95px;
+        &--files{
+            width: 48%;
+            display: flex;
+            margin: 0 5% 0 0%;
+            background-color: rgb(226, 250, 240);
+            border-radius: 15px;
+           
+        }
+        &--Links{
+            width: 48%;
+            display: flex;
+            background-color: rgb(241, 240, 240);
+            border-radius: 15px;
+            margin: 0 5% 0 3%;
+
+        }
+        &--para{
+            font-size: 16px;
+            h4{
+                font-size: 13px;
+                margin-bottom: 0;
+            }
+            h2{
+                margin-top: 10%;
+            }
+
+        }
+        &--icon{
+            font-size: 30px;
+            margin-top: 27%;
+            margin-left: 13%;
+            color: rgb(60, 192, 137);
+        }
+        &--icon1{
+            font-size: 30px;
+            margin-top: 27%;
+            margin-left: 13%;
+            // color: rgb(60, 192, 137);
+        }
+     
+    }
+    &__type{
+        span{
+            margin-left: 0;
+            margin-top: 8%;
+        }
+        display: flex;
+        &--icon{
+            margin: 9% 0 0 60%;
+            border-radius: 7px;
+            color: grey;
+          
+        }
+    }
+    &__DPMO{
+        display: flex;
+        height: 59px;
+        &--icon, &--icon2, &--icon3,&--icon4{
+            width: 18%;
+            height: 50px;
+            margin-top: 10%;
+            float: left;
+            border-radius: 15px;
+        }
+        &--para{
+            margin-right: 22%;
+            margin-left: 5%;
+            width: 42%;
+            h5{
+                margin-bottom: 0;
+                margin-top: 30%;
+                font-size: 19px;
+            }
+            h6{
+                margin-top: 1%;
+                color: grey;
+            }
+        }
+        &--font,&--font2,&--font3,&--font4{
+            font-size: 20px;
+            margin-top:25% ;
+        }
+         &--next{
+        // width: 20%;
+        margin-top: 15%;
+        float: left;
+        font-size: 20px;
+        color: grey;
+        }
+        &--icon{
+            background-color: rgb(232, 211, 246);
+
+        }
+        &--icon2{
+            background-color: rgb(243, 243, 148);
+        }
+        &--icon3{
+            background-color: rgb(204, 251, 247);
+        }
+        &--icon4{
+            background-color: rgb(245, 208, 226);
+        }
+        &--font{
+            color: rgb(146, 36, 224);
+        }
+        &--font2{
+            color: rgb(134, 134, 23);
+        }
+        &--font3{
+            color:rgb(53, 210, 224);
+        }
+        &--font4{
+            color: rgb(236, 125, 51) ;
+        }
+
+    }
+  
+    ul {
+        padding: 0;
+
+        li {
+            list-style-type: none;
+
+            a {
+                color: black;
+                text-decoration: none;
+                // font-size: 16px;
+                // border-radius: 25px;
+                // margin-top: 3px;
+
+            }
+        }
+    }
+
+    ul li a:hover,
+    ul li a.active {
+        background: rgb(193, 243, 223);
+    }
+
+
+   
+}
+
+.Contact {
+    &__mini {
+        display: flex;
+
+        &--para {
+            width: 65%;
+        }
+
+        &--icon {
+            width: 35%;
+
+            ul {
+                display: flex;
+
+                li a {
+
+                    font-size: 20px;
+                    margin: 0 5px 0 5px;
+
+                }
+            }
+        }
+    }
+}

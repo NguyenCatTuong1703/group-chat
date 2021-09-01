@@ -1,0 +1,9 @@
+{
+    "users": [
+        {"id": 1, "name": "Le Huy Vu", "age": 25, "adress": "Nha Trang", "title": "FE developer"},
+        {"id": 2, "name": "Quoc Nam", "age": 25, "adress": "HCM", "title": "Full stack developer"},
+        {"id": 3, "name": "Minh Thao", "age": 25, "adress": "Soc Trang", "title": "FE developer"},
+        {"id": 4, "name": "Son", "age": 23, "adress": "HCM", "title": "BE developer"},
+        {"id": 5, "name": "Huy", "age": 24, "adress": "HCM", "title": "BE developer"}
+    ]
+}
